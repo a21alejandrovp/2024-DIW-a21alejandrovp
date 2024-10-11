@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cabecera {
+            display: flex;
+            background-color: black;
+            color: yellow;
+        }
+
+        #cabecera p {
+            text-align: left;
+            margin-left: 10px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        #div0 {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        #div1 {
+            background-color: darkgray;
+            display: flex;
+            width: 200px;
+            min-width: 200px;
+            min-height: 800px;
+        }
+
+        nav {
+            margin-left: 20px;
+        }
+
+        #div2 {
+            background-color: lightgrey;
+            display: flex;
+            width: 100%;
+            min-height: 100%;
+        }
+
+        #id1 {
+            color: rgb(231, 0, 231);
+            margin-left: 20px;
+        }
+
+        #pie {
+            display: flex;
+            justify-content: center;
+            background-color: grey;
+            color: brown;
+        }
+
+        #pie p {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="cabecera">
+            <p>Párrafo en la cabecera de la página.</p>
+        </div>
+    </header>
+    <div id="div0">
+        <div id="div1">
+            <nav>
+                <br>
+                <a href="#" style="color: rgb(0, 255, 21);">Enlace 1</a>
+                <br>
+                <a href="#" style="color: rgb(0, 255, 21);">Enlace 2</a>
+                <br>
+                <a href="#" style="color: rgb(0, 255, 21);">Enlace 3</a>
+            </nav>
+        </div>
+        <div id="div2">
+            <br>
+            <h1 id="id1">Elemplo: Uso del elemento "div" y del atributo <i>id</i></h1>
+        </div>
+    </div>
+    <footer>
+        <div id="pie">
+            <p>Párrafo en el pie de la página.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
